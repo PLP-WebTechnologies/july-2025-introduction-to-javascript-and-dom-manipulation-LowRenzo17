@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JavaScript Fundamentals Assignment</h1>
+            <p class="subtitle">Explore JavaScript basics, functions, loops, and DOM manipulation through interactive examples</p>
+        </header>
+        
+        <div class="content">
+            <div class="card">
+                <h2>Part 1: JavaScript Basics</h2>
+                <div class="part">
+                    <h3>Variables & Conditionals</h3>
+                    <p>Enter your age to check eligibility:</p>
+                    <input type="number" id="ageInput" placeholder="Enter your age">
+                    <button onclick="checkAge()">Check Eligibility</button>
+                    <div class="output" id="ageOutput"></div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>Part 2: JavaScript Functions</h2>
+                <div class="part">
+                    <h3>Calculate Area</h3>
+                    <p>Enter radius to calculate area of a circle:</p>
+                    <input type="number" id="radiusInput" placeholder="Enter radius">
+                    <button onclick="calculateArea()">Calculate Area</button>
+                    <div class="output" id="areaOutput"></div>
+                    
+                    <h3>String Formatter</h3>
+                    <p>Enter text to format:</p>
+                    <input type="text" id="textInput" placeholder="Enter text">
+                    <button onclick="formatText()">Format Text</button>
+                    <div class="output" id="textOutput"></div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>Part 3: JavaScript Loops</h2>
+                <div class="part">
+                    <h3>For Loop</h3>
+                    <p>Generate numbers from 1 to N:</p>
+                    <input type="number" id="loopInput" placeholder="Enter a number">
+                    <button onclick="runLoop()">Run Loop</button>
+                    <div class="output" id="loopOutput"></div>
+                    
+                    <h3>Array Iteration</h3>
+                    <p>Iterate through an array of fruits:</p>
+                    <button onclick="iterateArray()">Iterate Array</button>
+                    <div class="output" id="arrayOutput"></div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>Part 4: DOM Manipulation</h2>
+                <div class="part">
+                    <h3>Style Changes</h3>
+                    <div class="dom-interaction">
+                        <div class="dom-box" id="box1">Box 1</div>
+                        <div class="dom-box" id="box2">Box 2</div>
+                        <div class="dom-box" id="box3">Box 3</div>
+                    </div>
+                    <button onclick="changeStyles()">Change Styles</button>
+                    <button onclick="resetStyles()">Reset Styles</button>
+                    
+                    <h3>Dynamic Content</h3>
+                    <button onclick="addNewItem()">Add New Item</button>
+                    <button onclick="removeLastItem()">Remove Last Item</button>
+                    <div class="output" id="listOutput">
+                        <div>Initial Item</div>
+                    </div>
+                    
+                    <h3>Event Handling</h3>
+                    <button id="colorChanger">Change Background Color</button>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>JavaScript Fundamentals Assignment - Mastering JS Basics, Functions, Loops, and DOM</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
